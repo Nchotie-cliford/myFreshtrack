@@ -73,12 +73,10 @@ nav {
 .hero {
   padding: 12rem 0;
   /* Layered background: gradient on top, then cover image */
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.45)),
-    url("access/d4.jpg") center center / cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.459)),
+    url("access/b4.jpg") center center / cover no-repeat;
   color: white;
 }
-
 
 .hero-grid {
   display: grid;
@@ -260,7 +258,7 @@ nav {
 
 .popular-badge {
   position: absolute;
-  top: -15px;
+  top: -30px;
   left: 50%;
   transform: translateX(-50%);
   background: var(--primary);

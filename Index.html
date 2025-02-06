@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MyFreshTrack - AI-Powered Sustainable Grocery Management</title>
+    <title data-i18n="page.title">
+      MyFreshTrack - AI-Powered Sustainable Grocery Management
+    </title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -17,14 +19,8 @@
   <body>
     <header>
       <nav class="container">
-        <div class="logo">MyFreshTrack</div>
-        <div class="nav-links">
-          <a href="#problems">The Problem</a>
-          <a href="#solutions">How We Solve It</a>
-          <a href="#features">Key Features</a>
-          <a href="#pricing">Plans</a>
-          <a href="#contact">Get in Touch</a>
-        </div>
+        <div class="logo" data-i18n="header.logo">MyFreshTrack</div>
+        <div class="nav-links"></div>
         <div class="language-switcher">
           <button class="lang-btn active" data-lang="en">EN</button>
           <button class="lang-btn" data-lang="de">DE</button>
@@ -35,17 +31,14 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-content">
-          <h1>
-            Smarter Shopping,
-            <span class="highlight">Healthier Living</span>
-          </h1>
-          <p class="lead">
-            AI-driven grocery planning that reduces waste, saves money, and
-            promotes sustainable living.
+          <h1 data-i18n="hero.title">Reinvent How You Eat &amp; Shop</h1>
+          <p class="lead" data-i18n="hero.subtitle">
+            AI-powered food management reducing household waste by up to 80%
           </p>
           <div class="cta-container">
-            <a href="#beta" class="cta-button">Get Early Access</a>
-            <a href="#features" class="secondary-button">Explore Features</a>
+            <a href="#beta" class="cta-button" data-i18n="hero.cta.primary"
+              >Get Early Access</a
+            >
           </div>
         </div>
         <div class="hero-image"></div>
@@ -54,14 +47,16 @@
 
     <section id="problems" class="problem-section">
       <div class="container">
-        <h2>The Food Waste Crisis</h2>
+        <h2 data-i18n="problems.title">The Food Waste Crisis</h2>
         <div class="problem-grid">
           <div class="problem-card">
             <div class="image-container">
-              <img src="./access/d1.jpg" alt="Food waste" />
+              <img src="./access/b4.jpg" alt="Food waste" />
             </div>
-            <h3>Massive Financial Loss</h3>
-            <p>Households waste €600 annually on unused groceries.</p>
+            <h3 data-i18n="problems.cards.0.title">Massive Financial Loss</h3>
+            <p data-i18n="problems.cards.0.description">
+              Households waste €600 annually on unused groceries.
+            </p>
           </div>
           <div class="problem-card">
             <div class="image-container">
@@ -70,8 +65,8 @@
                 alt="Environment"
               />
             </div>
-            <h3>Environmental Damage</h3>
-            <p>
+            <h3 data-i18n="problems.cards.1.title">Environmental Damage</h3>
+            <p data-i18n="problems.cards.1.description">
               Food waste contributes to 8-10% of global greenhouse gas
               emissions.
             </p>
@@ -83,8 +78,8 @@
                 alt="Nutrition"
               />
             </div>
-            <h3>Poor Nutrition Choices</h3>
-            <p>
+            <h3 data-i18n="problems.cards.2.title">Poor Nutrition Choices</h3>
+            <p data-i18n="problems.cards.2.description">
               Busy schedules lead to unhealthy meal habits and food
               mismanagement.
             </p>
@@ -95,7 +90,7 @@
 
     <section id="solutions" class="solution-section">
       <div class="container">
-        <h2>How MyFreshTrack Changes the Game</h2>
+        <h2 data-i18n="solutions.title">How MyFreshTrack Changes the Game</h2>
         <div class="solution-grid">
           <div class="solution-card">
             <div class="solution-image">
@@ -105,15 +100,19 @@
               />
             </div>
             <div class="solution-content">
-              <h3>Smart Inventory Management</h3>
+              <h3 data-i18n="solutions.cards.0.title">
+                Smart Inventory Management
+              </h3>
               <ul class="benefits-list">
-                <li>
+                <li data-i18n="solutions.cards.0.benefits.0">
                   <i class="fas fa-check"></i> Real-time expiration tracking
                 </li>
-                <li>
+                <li data-i18n="solutions.cards.0.benefits.1">
                   <i class="fas fa-check"></i> Automated usage predictions
                 </li>
-                <li><i class="fas fa-check"></i> Waste reduction analytics</li>
+                <li data-i18n="solutions.cards.0.benefits.2">
+                  <i class="fas fa-check"></i> Waste reduction analytics
+                </li>
               </ul>
             </div>
           </div>
@@ -125,12 +124,42 @@
               />
             </div>
             <div class="solution-content">
-              <h3>Personalized Meal Planning</h3>
+              <h3 data-i18n="solutions.cards.1.title">
+                Personalized Meal Planning
+              </h3>
               <ul class="benefits-list">
-                <li><i class="fas fa-check"></i> AI-generated recipes</li>
-                <li><i class="fas fa-check"></i> Dietary preference filters</li>
-                <li>
+                <li data-i18n="solutions.cards.1.benefits.0">
+                  <i class="fas fa-check"></i> AI-generated recipes
+                </li>
+                <li data-i18n="solutions.cards.1.benefits.1">
+                  <i class="fas fa-check"></i> Dietary preference filters
+                </li>
+                <li data-i18n="solutions.cards.1.benefits.2">
                   <i class="fas fa-check"></i> Nutritional balance tracking
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="solution-card">
+            <div class="solution-image">
+              <img
+                src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=800"
+                alt="Smart inventory"
+              />
+            </div>
+            <div class="solution-content">
+              <h3 data-i18n="solutions.cards.0.title">
+                Smart Inventory Management
+              </h3>
+              <ul class="benefits-list">
+                <li data-i18n="solutions.cards.0.benefits.0">
+                  <i class="fas fa-check"></i> Real-time expiration tracking
+                </li>
+                <li data-i18n="solutions.cards.0.benefits.1">
+                  <i class="fas fa-check"></i> Automated usage predictions
+                </li>
+                <li data-i18n="solutions.cards.0.benefits.2">
+                  <i class="fas fa-check"></i> Waste reduction analytics
                 </li>
               </ul>
             </div>
@@ -141,27 +170,35 @@
 
     <section id="features" class="feature-section">
       <div class="container">
-        <h2>Powerful Features</h2>
+        <h2 data-i18n="features.title">Powerful Features</h2>
         <div class="feature-grid">
           <div class="feature-card">
             <i class="fas fa-robot"></i>
-            <h3>AI Predictions</h3>
-            <p>Smart consumption forecasting and shopping lists</p>
+            <h3 data-i18n="features.cards.0.title">AI Predictions</h3>
+            <p data-i18n="features.cards.0.description">
+              Smart consumption forecasting and shopping lists
+            </p>
           </div>
           <div class="feature-card">
             <i class="fas fa-recycle"></i>
-            <h3>Waste Tracking</h3>
-            <p>Detailed analytics on your food usage patterns</p>
+            <h3 data-i18n="features.cards.1.title">Waste Tracking</h3>
+            <p data-i18n="features.cards.1.description">
+              Detailed analytics on your food usage patterns
+            </p>
           </div>
           <div class="feature-card">
             <i class="fas fa-shopping-basket"></i>
-            <h3>Smart Shopping</h3>
-            <p>Optimized grocery lists with local store integration</p>
+            <h3 data-i18n="features.cards.2.title">Smart Shopping</h3>
+            <p data-i18n="features.cards.2.description">
+              Optimized grocery lists with local store integration
+            </p>
           </div>
           <div class="feature-card">
             <i class="fas fa-seedling"></i>
-            <h3>Sustainability</h3>
-            <p>Track your environmental impact in real-time</p>
+            <h3 data-i18n="features.cards.3.title">Sustainability</h3>
+            <p data-i18n="features.cards.3.description">
+              Track your environmental impact in real-time
+            </p>
           </div>
         </div>
       </div>
@@ -169,66 +206,134 @@
 
     <section id="pricing" class="pricing-section">
       <div class="container">
-        <h2>Simple Pricing</h2>
+        <h2 data-i18n="pricing.title">Simple Pricing</h2>
+        <p class="lead" data-i18n="pricing.subtitle">
+          Be Among the First 500 Eco-Pioneers to Get Early Access
+        </p>
+
         <div class="pricing-grid">
           <div class="price-card">
-            <h3>Starter</h3>
-            <div class="price">€0<span>/month</span></div>
+            <h3 data-i18n="pricing.cards.0.plan">Starter</h3>
+            <div class="price">
+              <span data-i18n="pricing.cards.0.price">/month</span>
+            </div>
             <ul class="features-list">
-              <li><i class="fas fa-check"></i> Basic inventory tracking</li>
-              <li><i class="fas fa-check"></i> Weekly meal suggestions</li>
-              <li><i class="fas fa-check"></i> Community access</li>
-              <li><i class="fas fa-times"></i> Advanced analytics</li>
+              <li data-i18n="pricing.cards.0.features.0">
+                <i class="fas fa-check"></i> Basic inventory tracking
+              </li>
+              <li data-i18n="pricing.cards.0.features.1">
+                <i class="fas fa-check"></i> Weekly meal suggestions
+              </li>
+              <li data-i18n="pricing.cards.0.features.2">
+                <i class="fas fa-check"></i> Community access
+              </li>
+              <li data-i18n="pricing.cards.0.features.3">
+                <i class="fas fa-times"></i> Advanced analytics
+              </li>
             </ul>
-            <a href="#beta" class="cta-button">Get Started</a>
+            <a
+              href="#beta"
+              class="cta-button"
+              data-i18n="pricing.cards.0.button"
+              >Get Started</a
+            >
           </div>
           <div class="price-card popular">
-            <span class="popular-badge">Most Popular</span>
-            <h3>Pro</h3>
-            <div class="price">€7.99<span>/month</span></div>
+            <span class="popular-badge" data-i18n="pricing.cards.1.popular"
+              >Most Popular</span
+            >
+            <h3 data-i18n="pricing.cards.1.plan">Pro</h3>
+            <div class="price">
+              <span data-i18n="pricing.cards.1.price">/month</span>
+            </div>
             <ul class="features-list">
-              <li><i class="fas fa-check"></i> Full inventory management</li>
-              <li><i class="fas fa-check"></i> AI-powered shopping lists</li>
-              <li><i class="fas fa-check"></i> Nutritional tracking</li>
-              <li><i class="fas fa-check"></i> Premium support</li>
+              <li data-i18n="pricing.cards.1.features.0">
+                <i class="fas fa-check"></i> Full inventory management
+              </li>
+              <li data-i18n="pricing.cards.1.features.1">
+                <i class="fas fa-check"></i> AI-powered shopping lists
+              </li>
+              <li data-i18n="pricing.cards.1.features.2">
+                <i class="fas fa-check"></i> Nutritional tracking
+              </li>
+              <li data-i18n="pricing.cards.1.features.3">
+                <i class="fas fa-check"></i> Premium support
+              </li>
             </ul>
-            <a href="#beta" class="cta-button">Start Free Trial</a>
+            <a
+              href="#beta"
+              class="cta-button"
+              data-i18n="pricing.cards.1.button"
+              >Start Free Trial</a
+            >
           </div>
           <div class="price-card">
-            <h3>Family</h3>
-            <div class="price">€11.99<span>/month</span></div>
+            <h3 data-i18n="pricing.cards.2.plan">Family</h3>
+            <div class="price">
+              <span data-i18n="pricing.cards.2.price">/month</span>
+            </div>
             <ul class="features-list">
-              <li><i class="fas fa-check"></i> Up to 5 users</li>
-              <li><i class="fas fa-check"></i> Shared pantry management</li>
-              <li><i class="fas fa-check"></i> Family meal planner</li>
-              <li><i class="fas fa-check"></i> Priority support</li>
+              <li data-i18n="pricing.cards.2.features.0">
+                <i class="fas fa-check"></i> Up to 5 users
+              </li>
+              <li data-i18n="pricing.cards.2.features.1">
+                <i class="fas fa-check"></i> Shared pantry management
+              </li>
+              <li data-i18n="pricing.cards.2.features.2">
+                <i class="fas fa-check"></i> Family meal planner
+              </li>
+              <li data-i18n="pricing.cards.2.features.3">
+                <i class="fas fa-check"></i> Priority support
+              </li>
             </ul>
-            <a href="#beta" class="cta-button">Choose Family</a>
+            <a
+              href="#beta"
+              class="cta-button"
+              data-i18n="pricing.cards.2.button"
+              >Choose Family</a
+            >
           </div>
         </div>
       </div>
     </section>
-    <!-- Add before the final CTA section -->
+
     <section class="contact-section">
       <div class="container">
-        <h2>Get in Touch</h2>
+        <h2 data-i18n="contact.title">Get in Touch</h2>
         <div class="contact-grid">
           <div class="contact-form">
             <form id="contact">
               <div class="form-group">
-                <input type="text" placeholder="Your Name" required />
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  required
+                  data-i18n-placeholder="contact.form.namePlaceholder"
+                />
               </div>
               <div class="form-group">
-                <input type="email" placeholder="Your Email" required />
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  required
+                  data-i18n-placeholder="contact.form.emailPlaceholder"
+                />
               </div>
               <div class="form-group">
                 <textarea
                   rows="5"
                   placeholder="Your Message"
                   required
+                  data-i18n-placeholder="contact.form.messagePlaceholder"
                 ></textarea>
               </div>
-              <button type="submit" class="cta-button">Send Message</button>
+              <button
+                type="submit"
+                class="cta-button"
+                data-i18n="contact.form.button"
+              >
+                Send Message
+              </button>
             </form>
           </div>
         </div>
@@ -239,30 +344,58 @@
       <div class="container">
         <div class="footer-grid">
           <div class="footer-col">
-            <div class="logo">MyFreshTrack</div>
-            <p class="footer-text">
+            <div class="logo" data-i18n="footer.logo">MyFreshTrack</div>
+            <p class="footer-text" data-i18n="footer.description">
               Making sustainable living accessible through smart technology.
             </p>
           </div>
           <div class="footer-col">
-            <h4>Quick Links</h4>
+            <h4 data-i18n="footer.quickLinks.title">Quick Links</h4>
             <ul>
-              <li><a href="#features">Features</a></li>
-              <li><a href="#solutions">Solutions</a></li>
-              <li><a href="#pricing">Pricing</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a href="#features" data-i18n="footer.quickLinks.features"
+                  >Features</a
+                >
+              </li>
+              <li>
+                <a href="#solutions" data-i18n="footer.quickLinks.solutions"
+                  >Solutions</a
+                >
+              </li>
+              <li>
+                <a href="#pricing" data-i18n="footer.quickLinks.pricing"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a href="#contact" data-i18n="footer.quickLinks.contact"
+                  >Contact</a
+                >
+              </li>
             </ul>
           </div>
           <div class="footer-col">
-            <h4>Legal</h4>
+            <h4 data-i18n="footer.legal.title">Legal</h4>
             <ul>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">Cookie Policy</a></li>
+              <li>
+                <a href="#" data-i18n="footer.legal.privacyPolicy"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" data-i18n="footer.legal.termsOfService"
+                  >Terms of Service</a
+                >
+              </li>
+              <li>
+                <a href="#" data-i18n="footer.legal.cookiePolicy"
+                  >Cookie Policy</a
+                >
+              </li>
             </ul>
           </div>
           <div class="footer-col">
-            <h4>Connect</h4>
+            <h4 data-i18n="footer.connect.title">Connect</h4>
             <div class="social-links">
               <a href="#"><i class="fab fa-twitter"></i></a>
               <a href="#"><i class="fab fa-facebook"></i></a>
@@ -270,33 +403,61 @@
               <a href="#"><i class="fab fa-linkedin"></i></a>
             </div>
             <div class="newsletter">
-              <input type="email" placeholder="Enter your email" />
-              <button class="cta-button">Subscribe</button>
+              <input
+                type="email"
+                placeholder="Enter your email"
+                data-i18n-placeholder="footer.connect.newsletterPlaceholder"
+              />
+              <button
+                class="cta-button"
+                data-i18n="footer.connect.newsletterButton"
+              >
+                Subscribe
+              </button>
             </div>
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2025 MyFreshTrack. All rights reserved.</p>
+          <p data-i18n="footer.bottom">
+            &copy; 2025 MyFreshTrack. All rights reserved.
+          </p>
           <div class="legal-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
+            <a href="#" data-i18n="footer.legal.privacyPolicy"
+              >Privacy Policy</a
+            >
+            <a href="#" data-i18n="footer.legal.termsOfService"
+              >Terms of Service</a
+            >
           </div>
         </div>
       </div>
     </footer>
 
     <div id="cookie-banner" class="cookie-banner">
-      <p>
+      <p data-i18n="cookieBanner.message">
         We use cookies to enhance your experience on our website. By continuing,
         you agree to our
-        <a href="/privacy-policy" target="_blank">Privacy Policy</a> and
-        <a href="/cookie-policy" target="_blank">Cookie Policy</a>.
+        <a
+          href="/privacy-policy"
+          target="_blank"
+          data-i18n="cookieBanner.privacyPolicy"
+          >Privacy Policy</a
+        >
+        and
+        <a
+          href="/cookie-policy"
+          target="_blank"
+          data-i18n="cookieBanner.cookiePolicy"
+          >Cookie Policy</a
+        >.
       </p>
-      <button id="accept-cookies">Accept</button>
-      <button id="reject-cookies">Reject</button>
+      <button id="accept-cookies" data-i18n="cookieBanner.accept">
+        Accept
+      </button>
+      <button id="reject-cookies" data-i18n="cookieBanner.reject">
+        Reject
+      </button>
     </div>
-
-    <!-- Beta CTA and Final CTA sections from previous version -->
 
     <script src="script.js"></script>
   </body>
