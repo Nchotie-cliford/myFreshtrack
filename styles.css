@@ -79,7 +79,7 @@ nav {
   position: relative;
   height: 50%;
   /* Layered background: gradient on top, then cover image */
-  background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.61)),
+  background: linear-gradient(rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.342)),
     url("access/b4.jpg") center center / cover no-repeat;
   color: white;
 }
