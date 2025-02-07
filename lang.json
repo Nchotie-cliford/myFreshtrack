@@ -4,11 +4,10 @@
       "logo": "myFreshTrack"
     },
     "hero": {
-      "title": "Your AI-Powered Smart Food Assistant – Shop Smarter, Eat Healthier, Waste Less!",
-      "subtitle": "Track your pantry, get AI-powered meal plans, shop efficiently, and live sustainably – all in one app!",
+      "title": "End Food Waste. Live Sustainably.",
+      "subtitle": "Track your pantry, get AI-powered meal plans, and shop smarter. Join a community committed to reducing food waste—all in one app.",
       "cta": {
-        "primary": "Get Early Access",
-        "secondary": "Explore Features"
+        "primary": "Claim Your Free AI Trial →"
       }
     },
     "problems": {
@@ -154,10 +153,10 @@
       "logo": "myFreshTrack"
     },
     "hero": {
-      "title": "Erfinde, wie du isst und einkaufst neu",
-      "subtitle": "KI-gesteuerte Einkaufsplanung, die Verschwendung reduziert, Geld spart und nachhaltiges Leben fördert.",
+      "title": "Beende Lebensmittelverschwendung. Lebe nachhaltig.",
+      "subtitle": "Behalte deine Vorräte im Blick, erhalte KI-gestützte Essenspläne und kaufe smarter ein. Werde Teil einer Community, die sich für weniger Lebensmittelverschwendung einsetzt – alles in einer App.",
       "cta": {
-        "primary": "Frühen Zugang erhalten",
+        "primary": " Sichere dir jetzt deine kostenlose Testversion →",
         "secondary": "Funktionen erkunden"
       }
     },

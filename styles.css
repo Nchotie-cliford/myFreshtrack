@@ -73,8 +73,8 @@ nav {
 .hero {
   padding: 12rem 0;
   /* Layered background: gradient on top, then cover image */
-  background: linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.459)),
-    url("access/b4.jpg") center center / cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.61)),
+    url("access/y1.jpg") center center / cover no-repeat;
   color: white;
 }
 
