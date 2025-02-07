@@ -71,7 +71,7 @@ nav {
 
 /* Hero Section */
 .hero {
-  padding: 10rem 0;
+  padding: 12rem 0;
   padding: 6rem 0;
   background-position: center;
   background-repeat: no-repeat;
@@ -328,8 +328,10 @@ nav {
   transition: all 0.3s ease;
   border: none;
   cursor: pointer;
-  font-weight: 500;
-  margin-top: 15px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-top: 30px;
+  font-size: 14px;
 }
 
 .cta-button:hover {
@@ -547,13 +549,14 @@ footer {
   }
 
   .hero-content h1 {
+    padding: 3rem 0;	
     font-size: 1.35rem;
     font-family: "Poppins", sans-serif;
     display: block;
   }
 
   .hero {
-    padding: 6rem 0;
+    padding: 7rem 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -4,7 +4,7 @@
       "logo": "myFreshTrack"
     },
     "hero": {
-      "title": "End Food Waste. Live Sustainably.",
+      "title": "End Food Waste - Live Sustainably.",
       "subtitle": "Track your pantry, get AI-powered meal plans, and shop smarter. Join a community committed to reducing food waste—all in one app.",
       "cta": {
         "primary": "Claim Your Free AI Trial →"
@@ -153,10 +153,10 @@
       "logo": "myFreshTrack"
     },
     "hero": {
-      "title": "Beende Lebensmittelverschwendung. Lebe nachhaltig.",
-      "subtitle": "Behalte deine Vorräte im Blick, erhalte KI-gestützte Essenspläne und kaufe smarter ein. Werde Teil einer Community, die sich für weniger Lebensmittelverschwendung einsetzt – alles in einer App.",
+      "title": "Weniger Verschwendung, mehr Nachhaltigkeit.",
+      "subtitle": "Behalte den Überblick, plane mit KI, kaufe smarter ein – alles in einer App.",
       "cta": {
-        "primary": " Sichere dir deine kostenlose Testversion →",
+        "primary": "Hol dir deine kostenlose Testversion →",
         "secondary": "Funktionen erkunden"
       }
     },
