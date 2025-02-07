@@ -71,10 +71,16 @@ nav {
 
 /* Hero Section */
 .hero {
-  padding: 12rem 0;
+  padding: 10rem 0;
+  padding: 6rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 50%;
   /* Layered background: gradient on top, then cover image */
   background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.61)),
-    url("access/y1.jpg") center center / cover no-repeat;
+    url("access/b4.jpg") center center / cover no-repeat;
   color: white;
 }
 
@@ -95,12 +101,6 @@ nav {
   background: linear-gradient(45deg, #fff, #e6ffe6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.hero-image img {
-  border-radius: 20px;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
-  width: 100%;
 }
 
 /* Problem Section */
@@ -547,11 +547,23 @@ footer {
   }
 
   .hero-content h1 {
-    font-size: 2rem;
+    font-size: 1.35rem;
+    font-family: "Poppins", sans-serif;
+    display: block;
+  }
+
+  .hero {
+    padding: 6rem 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50%;
   }
 
   .price-card.popular {
     transform: scale(1);
+    content: flex;
   }
 }
 
